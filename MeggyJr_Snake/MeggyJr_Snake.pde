@@ -16,7 +16,7 @@
 int xcoord = 3;    // The players x coordinates.
 int ycoord = 3;    // The players y coordinates.
 int direction = 0;    // Changes the way that the snake moves.
-int applesConsumed = 1;
+int applesConsumed = (applesConsumed + 1);
 byte xapple = random(8);
 byte yapple = random(8);
 boolean apple = false;
